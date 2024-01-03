@@ -1,0 +1,141 @@
+:root {
+    --dark-background: #1F2937;
+    --hero-main-text: #F9FAF8;
+    --hero-secondary-text: #E5E7EB;
+    --header-logo-text: #F9FAF8;
+    --button-color: #3882F6;
+    --information-header-text: #1F2937;
+    --quote-background-color: #E5E7EB;
+    --quote-text: #1F2937;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--dark-background);
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 16px 200px;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--dark-background);
+    margin: 10px auto 30px auto;
+}
+
+.header-link-text {
+    color: var(--header-secondary-text);
+}
+
+.header-logo {
+    color: var(--header-logo-text);
+    font-size: 24px;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: right;
+    justify-content: center;
+    
+}
+
+.hero {
+    background-color: var(--dark-background);
+    margin: 10px auto 30px auto;
+}
+
+.footer {
+    background-color: var(--dark-background);
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.hero-main {
+    color: var(--hero-main-text);
+    font-size: 48px;
+    font-weight: extra-bold;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: left;
+    justify-content: center;
+    padding: 0 0 0 0;
+}
+
+.hero-secondary-text {
+    color: var(--hero-secondary-text);
+    font-size: 18px;
+}
+
+.button {
+    background-color: var(--button-color);
+    color: var(--hero-main-text);
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.information-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.information-header {
+    color: var(--information-header-text);
+    font-size: 36px;
+    font-weight: extra-bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.quote {
+    background-color: var(--quote-background-color);
+    color: var(--quote-text);
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+.container {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+
